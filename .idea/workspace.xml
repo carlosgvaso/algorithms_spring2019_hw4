@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe741c29-90c0-44ba-bfe8-55718501d853" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms_spring2019_hw4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/.css/coverage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/.img/arrowDown.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/.img/arrowUp.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_LINE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_NAME_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/.classes/Graph.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/.classes/GraphTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_LINE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_NAME_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pset4/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pset4/GraphTester.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="113" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/coverage_report" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pset4/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pset4/GraphTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="346" column="51" selection-start-line="346" selection-start-column="51" selection-end-line="346" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4600#4609#0" expanded="true" />
+                <element signature="e#4703#4712#0" expanded="true" />
+                <element signature="e#5222#5231#0" expanded="true" />
+                <element signature="e#5325#5334#0" expanded="true" />
+                <element signature="e#5845#5854#0" expanded="true" />
+                <element signature="e#5924#5933#0" expanded="true" />
+                <element signature="e#6465#6474#0" expanded="true" />
+                <element signature="e#6544#6553#0" expanded="true" />
+                <element signature="e#7038#7047#0" expanded="true" />
+                <element signature="e#7141#7150#0" expanded="true" />
+                <element signature="e#8149#8158#0" expanded="true" />
+                <element signature="e#8644#8653#0" expanded="true" />
+                <element signature="e#9299#9308#0" expanded="true" />
+                <element signature="e#9378#9387#0" expanded="true" />
+                <element signature="e#9919#9928#0" expanded="true" />
+                <element signature="e#9998#10007#0" expanded="true" />
+                <element signature="e#10839#10848#0" expanded="true" />
+                <element signature="e#10918#10927#0" expanded="true" />
+                <element signature="e#11072#11081#0" expanded="true" />
+                <element signature="e#11127#11136#0" expanded="true" />
+                <element signature="e#11292#11301#0" expanded="true" />
+                <element signature="e#11348#11357#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/pset4/GraphTester.java" />
+        <option value="$PROJECT_DIR$/src/pset4/Graph.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="y" value="27" />
+    <option name="width" value="960" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algorithms_spring2019_hw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms_spring2019_hw4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms_spring2019_hw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms_spring2019_hw4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms_spring2019_hw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms_spring2019_hw4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pset4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms_spring2019_hw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/coverage_report" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.12077296" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="GraphTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms_spring2019_hw4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pset4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pset4" />
+      <option name="MAIN_CLASS_NAME" value="pset4.GraphTester" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GraphTester" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe741c29-90c0-44ba-bfe8-55718501d853" name="Default Changelist" comment="" />
+      <created>1557687569424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557687569424</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="GraphTester - 2019.05.12 at 14h 19m 59s.xml">
+      <configuration name="GraphTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTester - 2019.05.12 at 14h 21m 17s.xml">
+      <configuration name="GraphTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTester - 2019.05.12 at 15h 12m 12s.xml">
+      <configuration name="GraphTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTester - 2019.05.12 at 15h 18m 28s.xml">
+      <configuration name="GraphTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTester - 2019.05.12 at 15h 21m 36s.xml">
+      <configuration name="GraphTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTester - 2019.05.12 at 15h 22m 02s.xml">
+      <configuration name="GraphTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTester - 2019.05.12 at 15h 36m 32s.xml">
+      <configuration name="GraphTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTester - 2019.05.12 at 15h 45m 04s.xml">
+      <configuration name="GraphTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTester - 2019.05.12 at 15h 45m 41s.xml">
+      <configuration name="GraphTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTester - 2019.05.12 at 15h 46m 46s.xml">
+      <configuration name="GraphTester" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.18996799" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algorithms_spring2019_hw4$GraphTester.ic" NAME="GraphTester Coverage Results" MODIFIED="1557694005361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pset4.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Graph.java" />
+    <entry file="file://$PROJECT_DIR$/src/pset4/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pset4/GraphTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="346" column="51" selection-start-line="346" selection-start-column="51" selection-end-line="346" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4600#4609#0" expanded="true" />
+            <element signature="e#4703#4712#0" expanded="true" />
+            <element signature="e#5222#5231#0" expanded="true" />
+            <element signature="e#5325#5334#0" expanded="true" />
+            <element signature="e#5845#5854#0" expanded="true" />
+            <element signature="e#5924#5933#0" expanded="true" />
+            <element signature="e#6465#6474#0" expanded="true" />
+            <element signature="e#6544#6553#0" expanded="true" />
+            <element signature="e#7038#7047#0" expanded="true" />
+            <element signature="e#7141#7150#0" expanded="true" />
+            <element signature="e#8149#8158#0" expanded="true" />
+            <element signature="e#8644#8653#0" expanded="true" />
+            <element signature="e#9299#9308#0" expanded="true" />
+            <element signature="e#9378#9387#0" expanded="true" />
+            <element signature="e#9919#9928#0" expanded="true" />
+            <element signature="e#9998#10007#0" expanded="true" />
+            <element signature="e#10839#10848#0" expanded="true" />
+            <element signature="e#10918#10927#0" expanded="true" />
+            <element signature="e#11072#11081#0" expanded="true" />
+            <element signature="e#11127#11136#0" expanded="true" />
+            <element signature="e#11292#11301#0" expanded="true" />
+            <element signature="e#11348#11357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>algorithms_spring2019_hw4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

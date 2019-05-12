@@ -1,0 +1,194 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: Graph</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">pset4</a> ]
+</div>
+
+<h1>Coverage Summary for Class: Graph (pset4)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Graph</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (6/ 6)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (32/ 32)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package pset4;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import java.util.HashMap;
+<i>4</i>&nbsp;import java.util.HashSet;
+<i>5</i>&nbsp;import java.util.ArrayList;
+<i>6</i>&nbsp;import java.util.List;
+<i>7</i>&nbsp;import java.util.Map;
+<i>8</i>&nbsp;import java.util.Set;
+<i>9</i>&nbsp;
+<i>10</i>&nbsp;public class Graph {
+<i>11</i>&nbsp;
+<i>12</i>&nbsp;    private Set&lt;Integer&gt; nodes; // set of nodes in the graph
+<i>13</i>&nbsp;    private Map&lt;Integer, List&lt;Integer&gt;&gt; edges;
+<i>14</i>&nbsp;
+<i>15</i>&nbsp;    // map between a node and a list of nodes that are connected to it by outgoing edges
+<i>16</i>&nbsp;    // class invariant: fields &quot;nodes&quot; and &quot;edges&quot; are non-null;
+<i>17</i>&nbsp;    // &quot;this&quot; graph has no node that is not in &quot;nodes&quot;
+<i>18</i>&nbsp;
+<b class="fc"><i>19</i>&nbsp;    public Graph() {</b>
+<b class="fc"><i>20</i>&nbsp;        nodes = new HashSet&lt;Integer&gt;();</b>
+<b class="fc"><i>21</i>&nbsp;        edges = new HashMap&lt;Integer, List&lt;Integer&gt;&gt;();</b>
+<b class="fc"><i>22</i>&nbsp;    }</b>
+<i>23</i>&nbsp;
+<i>24</i>&nbsp;    public String toString() {
+<b class="fc"><i>25</i>&nbsp;        return &quot;nodes: &quot; + nodes + &quot;\n&quot; + &quot;edges: &quot; + edges;</b>
+<i>26</i>&nbsp;    }
+<i>27</i>&nbsp;
+<i>28</i>&nbsp;    public void addNode(int n) {
+<i>29</i>&nbsp;        // postcondition: adds the node &quot;n&quot; to this graph
+<b class="fc"><i>30</i>&nbsp;        nodes.add(n);</b>
+<b class="fc"><i>31</i>&nbsp;    }</b>
+<i>32</i>&nbsp;
+<i>33</i>&nbsp;    public void addEdge(int from, int to) {
+<i>34</i>&nbsp;        // postcondition: adds a directed edge &quot;from&quot; -&gt; &quot;to&quot; to this graph
+<i>35</i>&nbsp;
+<i>36</i>&nbsp;        // your code goes here
+<i>37</i>&nbsp;        // ...
+<i>38</i>&nbsp;
+<i>39</i>&nbsp;        // ensure the &quot;from&quot; and &quot;to&quot; nodes are in the set, so we don&#39;t break the invariant
+<b class="fc"><i>40</i>&nbsp;        this.addNode(from);</b>
+<b class="fc"><i>41</i>&nbsp;        this.addNode(to);</b>
+<i>42</i>&nbsp;
+<i>43</i>&nbsp;        // Add the edge to the map.Note we allow to add parallel edges, since
+<i>44</i>&nbsp;        // it was not specified if the class represents a single graph or multigraph.
+<i>45</i>&nbsp;        // check if the &quot;from&quot; node is on the map already
+<b class="fc"><i>46</i>&nbsp;        if (!edges.containsKey(from)) {</b>
+<i>47</i>&nbsp;            // if it is not, add it
+<b class="fc"><i>48</i>&nbsp;            List&lt;Integer&gt; adjNodes = new ArrayList&lt;&gt;();</b>
+<b class="fc"><i>49</i>&nbsp;            adjNodes.add(to);</b>
+<b class="fc"><i>50</i>&nbsp;            edges.put(from, adjNodes);</b>
+<b class="fc"><i>51</i>&nbsp;        } else {</b>
+<i>52</i>&nbsp;            // if it is, add the &quot;to&quot; node to its list
+<b class="fc"><i>53</i>&nbsp;            edges.get(from).add(to);</b>
+<i>54</i>&nbsp;        }
+<b class="fc"><i>55</i>&nbsp;    }</b>
+<i>56</i>&nbsp;
+<i>57</i>&nbsp;    public boolean unreachable(Set&lt;Integer&gt; sources, Set&lt;Integer&gt; targets) {
+<b class="fc"><i>58</i>&nbsp;        if (sources == null || targets == null) throw new IllegalArgumentException();</b>
+<i>59</i>&nbsp;        // postcondition: returns true if
+<i>60</i>&nbsp;        //     (1) &quot;sources&quot; is a subset of &quot;nodes&quot;,
+<i>61</i>&nbsp;        //     (2) &quot;targets&quot; is a subset of &quot;nodes&quot;, and
+<i>62</i>&nbsp;        //     (3) for each node &quot;m&quot; in set &quot;targets&quot;, there is no node &quot;n&quot; in set
+<i>63</i>&nbsp;        //         &quot;sources&quot; such that there is a directed path that starts at &quot;n&quot;
+<i>64</i>&nbsp;        //         and ends at &quot;m&quot; in &quot;this&quot;;
+<i>65</i>&nbsp;        // and false otherwise
+<i>66</i>&nbsp;
+<i>67</i>&nbsp;        // your code goes here
+<i>68</i>&nbsp;        // ...
+<i>69</i>&nbsp;
+<i>70</i>&nbsp;        // Check that &quot;sources&quot; is a subset of &quot;nodes&quot; (1)
+<b class="fc"><i>71</i>&nbsp;        if (!isSubset(sources, nodes)) {</b>
+<b class="fc"><i>72</i>&nbsp;            return false;</b>
+<i>73</i>&nbsp;        }
+<i>74</i>&nbsp;
+<i>75</i>&nbsp;        // Check that &quot;targets&quot; is a subset of &quot;nodes&quot; (2)
+<b class="fc"><i>76</i>&nbsp;        if (!isSubset(targets, nodes)) {</b>
+<b class="fc"><i>77</i>&nbsp;            return false;</b>
+<i>78</i>&nbsp;        }
+<i>79</i>&nbsp;
+<i>80</i>&nbsp;        // Check (3):
+<i>81</i>&nbsp;        // Check that the nodes adjacent to each of the sources are not contained
+<i>82</i>&nbsp;        // in the targets set
+<i>83</i>&nbsp;        List&lt;Integer&gt; adjNodes;
+<i>84</i>&nbsp;        // Iterate over all the sources
+<b class="fc"><i>85</i>&nbsp;        for (Integer source : sources) {</b>
+<i>86</i>&nbsp;            // Get the adjacent nodes to each source
+<b class="fc"><i>87</i>&nbsp;            adjNodes = edges.get(source);</b>
+<i>88</i>&nbsp;            // Iterate over all the targets
+<b class="fc"><i>89</i>&nbsp;            for (Integer target : targets) {</b>
+<i>90</i>&nbsp;                // Check if the target is adjacent to the source
+<b class="fc"><i>91</i>&nbsp;                if (adjNodes != null &amp;&amp; adjNodes.contains(target)) {</b>
+<b class="fc"><i>92</i>&nbsp;                    return false;    // A target is reachable from a source</b>
+<i>93</i>&nbsp;                }
+<b class="fc"><i>94</i>&nbsp;            }</b>
+<b class="fc"><i>95</i>&nbsp;        }</b>
+<i>96</i>&nbsp;
+<i>97</i>&nbsp;        // No check failed, thus the targets are not reachable from the sources
+<b class="fc"><i>98</i>&nbsp;        return true;</b>
+<i>99</i>&nbsp;    }
+<i>100</i>&nbsp;
+<i>101</i>&nbsp;    private boolean isSubset(Set&lt;Integer&gt; subset, Set&lt;Integer&gt; superset) {
+<i>102</i>&nbsp;        // postcondition: returns true if &quot;subset&quot; is a subset of &quot;superset&quot;.
+<i>103</i>&nbsp;
+<i>104</i>&nbsp;        // Empty sets are subsets of every set. Add check to ensure this.
+<b class="fc"><i>105</i>&nbsp;        if (subset.isEmpty()) {</b>
+<b class="fc"><i>106</i>&nbsp;            return true;</b>
+<i>107</i>&nbsp;        }
+<b class="fc"><i>108</i>&nbsp;        return superset.containsAll(subset);</b>
+<i>109</i>&nbsp;    }
+<i>110</i>&nbsp;
+<i>111</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2019-05-12 15:51</div>
+</div>
+</body>
+</html>
