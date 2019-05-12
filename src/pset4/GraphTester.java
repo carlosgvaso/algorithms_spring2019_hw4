@@ -12,8 +12,7 @@ public class GraphTester {
     @Test public void tae0() {
         Graph g = new Graph();
         g.addEdge(0, 1);
-        // TODO: change back to the way it was.
-        assertEquals(g.toString(), "nodes: [0, 1]\nedges: {0=[1]}");
+        assertEquals(g.toString(), "nodes=[0, 1]; edges={0=[1]}");
     }
 
     // your tests for method "addEdge" in class "Graph" go here
@@ -36,7 +35,7 @@ public class GraphTester {
         g.addNode(1);
         g.addEdge(0, 1);
         //System.out.println(g.toString());
-        assertEquals(g.toString(), "nodes: [0, 1]\nedges: {0=[1]}");
+        assertEquals(g.toString(), "nodes=[0, 1]; edges={0=[1]}");
     }
 
     /**
@@ -47,7 +46,7 @@ public class GraphTester {
         Graph g = new Graph();
         g.addEdge(0, 1);
         //System.out.println(g.toString());
-        assertEquals(g.toString(), "nodes: [0, 1]\nedges: {0=[1]}");
+        assertEquals(g.toString(), "nodes=[0, 1]; edges={0=[1]}");
     }
 
     /**
@@ -62,7 +61,7 @@ public class GraphTester {
         g1.addEdge(0, 1);
         g1.addEdge(0, 2);
         //System.out.println(g1.toString());
-        assertEquals(g1.toString(), "nodes: [0, 1, 2]\nedges: {0=[1, 2]}");
+        assertEquals(g1.toString(), "nodes=[0, 1, 2]; edges={0=[1, 2]}");
 
         Graph g2 = new Graph();
         g2.addNode(0);
@@ -71,7 +70,7 @@ public class GraphTester {
         g2.addEdge(1, 0);
         g2.addEdge(2, 0);
         //System.out.println(g2.toString());
-        assertEquals(g2.toString(), "nodes: [0, 1, 2]\nedges: {1=[0], 2=[0]}");
+        assertEquals(g2.toString(), "nodes=[0, 1, 2]; edges={1=[0], 2=[0]}");
 
         Graph g3 = new Graph();
         g3.addNode(0);
@@ -81,7 +80,7 @@ public class GraphTester {
         g3.addEdge(1, 2);
         g3.addEdge(2, 0);
         //System.out.println(g2.toString());
-        assertEquals(g3.toString(), "nodes: [0, 1, 2]\nedges: {0=[1], 1=[2], 2=[0]}");
+        assertEquals(g3.toString(), "nodes=[0, 1, 2]; edges={0=[1], 1=[2], 2=[0]}");
     }
 
     /**
@@ -94,7 +93,7 @@ public class GraphTester {
         g.addEdge(0, 1);
         g.addEdge(0, 1);
         //System.out.println(g.toString());
-        assertEquals(g.toString(), "nodes: [0, 1]\nedges: {0=[1, 1]}");
+        assertEquals(g.toString(), "nodes=[0, 1]; edges={0=[1, 1]}");
     }
 
     /**
@@ -105,7 +104,7 @@ public class GraphTester {
         g.addNode(0);
         g.addEdge(0, 0);
         //System.out.println(g.toString());
-        assertEquals(g.toString(), "nodes: [0]\nedges: {0=[0]}");
+        assertEquals(g.toString(), "nodes=[0]; edges={0=[0]}");
     }
 
     /**
@@ -118,7 +117,7 @@ public class GraphTester {
         g.addEdge(0, 1);
         g.addEdge(1, 0);
         //System.out.println(g.toString());
-        assertEquals(g.toString(), "nodes: [0, 1]\nedges: {0=[1], 1=[0]}");
+        assertEquals(g.toString(), "nodes=[0, 1]; edges={0=[1], 1=[0]}");
     }
 
 

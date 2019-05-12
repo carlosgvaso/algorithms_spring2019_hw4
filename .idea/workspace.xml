@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe741c29-90c0-44ba-bfe8-55718501d853" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms_spring2019_hw4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/.css/coverage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/.img/arrowDown.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/.img/arrowUp.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_LINE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/.classes/Graph.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/.classes/GraphTester.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_LINE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage_report/pset4/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pset4/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pset4/GraphTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pset4/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pset4/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pset4/GraphTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pset4/GraphTester.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pset4/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+            <state relative-caret-position="450">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#657#658#0" expanded="true" />
@@ -70,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pset4/GraphTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="346" column="51" selection-start-line="346" selection-start-column="51" selection-end-line="346" selection-end-column="51" />
+            <state relative-caret-position="1785">
+              <caret line="119" column="56" selection-start-line="119" selection-start-column="56" selection-end-line="119" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4600#4609#0" expanded="true" />
@@ -116,8 +86,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pset4/GraphTester.java" />
         <option value="$PROJECT_DIR$/src/pset4/Graph.java" />
+        <option value="$PROJECT_DIR$/src/pset4/GraphTester.java" />
       </list>
     </option>
   </component>
@@ -193,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GraphTester">
     <configuration name="GraphTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms_spring2019_hw4" />
       <extension name="coverage">
@@ -209,9 +179,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GraphTester.tae0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms_spring2019_hw4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pset4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pset4" />
+      <option name="MAIN_CLASS_NAME" value="pset4.GraphTester" />
+      <option name="METHOD_NAME" value="tae0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GraphTester" />
+        <item itemvalue="JUnit.GraphTester.tae0" />
       </list>
     </recent_temporary>
   </component>
@@ -226,12 +213,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GraphTester - 2019.05.12 at 14h 19m 59s.xml">
-      <configuration name="GraphTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GraphTester - 2019.05.12 at 14h 21m 17s.xml">
-      <configuration name="GraphTester" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GraphTester - 2019.05.12 at 15h 12m 12s.xml">
       <configuration name="GraphTester" configurationId="JUnit" />
     </history-entry>
@@ -256,9 +237,16 @@
     <history-entry file="GraphTester - 2019.05.12 at 15h 46m 46s.xml">
       <configuration name="GraphTester" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GraphTester_tae0 - 2019.05.12 at 16h 56m 10s.xml">
+      <configuration name="GraphTester.tae0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTester_tae0 - 2019.05.12 at 16h 58m 16s.xml">
+      <configuration name="GraphTester.tae0" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -284,7 +272,7 @@
     </layout>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/algorithms_spring2019_hw4$GraphTester.ic" NAME="GraphTester Coverage Results" MODIFIED="1557694005361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/algorithms_spring2019_hw4$GraphTester.ic" NAME="GraphTester Coverage Results" MODIFIED="1557698316953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>pset4.*</FILTER>
     </SUITE>
   </component>
@@ -292,8 +280,8 @@
     <entry file="file://$PROJECT_DIR$/src/Graph.java" />
     <entry file="file://$PROJECT_DIR$/src/pset4/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+        <state relative-caret-position="450">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#657#658#0" expanded="true" />
@@ -304,8 +292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pset4/GraphTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="346" column="51" selection-start-line="346" selection-start-column="51" selection-end-line="346" selection-end-column="51" />
+        <state relative-caret-position="1785">
+          <caret line="119" column="56" selection-start-line="119" selection-start-column="56" selection-end-line="119" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4600#4609#0" expanded="true" />

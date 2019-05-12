@@ -22,7 +22,7 @@ public class Graph {
     }
 
     public String toString() {
-        return "nodes: " + nodes + "\n" + "edges: " + edges;
+        return "nodes=" + nodes + "; " + "edges=" + edges;
     }
 
     public void addNode(int n) {
